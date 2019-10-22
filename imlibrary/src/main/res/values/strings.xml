@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">imLibrary</string>
+    <string name="notify_sys_msg_title">系统消息</string>
+    <string name="notify_sys_msg_content">您有新的系统消息</string>
+    <string name="notify_order_msg_title">订单消息</string>
+    <string name="notify_order_msg_content">您有新的订单消息</string>
+</resources>

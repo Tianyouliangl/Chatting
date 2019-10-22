@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chatting.china.widgets.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:rightPadding="0dp"
+    android:id="@+id/sliding_menu"
+    app:drawerType="false"
+    android:overScrollMode="never"
+    android:fadingEdge="none"
+    android:scrollbars="none"
+    android:layout_height="match_parent"
+    tools:context=".act.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_main_menu"/>
+
+        <com.chatting.china.widgets.BaseNetLayout
+            android:layout_width="match_parent"
+            android:id="@+id/base_net"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:id="@+id/mFragmentContainerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_above="@+id/mTabLayout"
+                    android:layout_height="match_parent">
+                </FrameLayout>
+
+                <com.chatting.china.widgets.TabLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/mTabLayout"
+                    android:background="@color/colorWhite"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="50dp">
+                </com.chatting.china.widgets.TabLayout>
+            </RelativeLayout>
+        </com.chatting.china.widgets.BaseNetLayout>
+
+    </LinearLayout>
+
+
+
+</com.chatting.china.widgets.SlidingMenu>

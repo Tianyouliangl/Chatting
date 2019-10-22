@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chatting</string>
+    <string name="net_connect_not">当前网络不可用,请检查网络连接 > </string>
+    <string name="dialogue">会话</string>
+    <string name="contact">联系人</string>
+    <string name="dynamic">动态</string>
+</resources>

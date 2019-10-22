@@ -1,0 +1,18 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mTabImg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/mTabLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:textSize="12sp"
+        android:textColor="@color/selector_tab_color" />
+</merge>
